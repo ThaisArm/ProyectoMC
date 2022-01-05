@@ -25,6 +25,5 @@ public class PrincipalActivity extends AppCompatActivity {
                 startActivity(new Intent(PrincipalActivity.this, CambioContrasenaActivity.class));
             }
         });
-
     }
 }
