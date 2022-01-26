@@ -7,10 +7,11 @@
     tools:context=".PrincipalActivity">
 
     <Button
-        android:id="@+id/btnCambioContraseña"
+        android:id="@+id/btnCambioPass"
         android:layout_width="235dp"
         android:layout_height="50dp"
         android:text="@string/cambiar_contrasena"
+        android:background="#1abc9c"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -23,11 +24,12 @@
         android:layout_width="237dp"
         android:layout_height="48dp"
         android:text="@string/registrar_actividad"
+        android:background="#1abc9c"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCambioContraseña"
+        app:layout_constraintTop_toBottomOf="@+id/btnCambioPass"
         app:layout_constraintVertical_bias="0.256" />
 
     <Button
@@ -35,11 +37,11 @@
         android:layout_width="234dp"
         android:layout_height="49dp"
         android:text="@string/consultar_actividades"
+        android:background="#1abc9c"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnRegistrarActividad"
         app:layout_constraintVertical_bias="0.389" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
