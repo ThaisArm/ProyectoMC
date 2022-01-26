@@ -26,5 +26,18 @@ public class PrincipalActivity extends AppCompatActivity {
             }
         });
 
+        boton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(PrincipalActivity.this, RegistroActivity.class));
+            }
+        });
+
+        boton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(PrincipalActivity.this, ConsultaActivity.class));
+            }
+        });
     }
 }
