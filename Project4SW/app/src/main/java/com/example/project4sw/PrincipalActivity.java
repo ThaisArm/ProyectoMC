@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -25,6 +26,7 @@ import java.util.Map;
 
 public class PrincipalActivity extends AppCompatActivity {
     Button boton1, boton2, boton3;
+    TextView tvBienvenida;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +39,9 @@ public class PrincipalActivity extends AppCompatActivity {
         boton1 = findViewById(R.id.btnCambioPass);
         boton2 = findViewById(R.id.btnRegistrarActividad);
         boton3 = findViewById(R.id.btnConsulta);
+        tvBienvenida = findViewById(R.id.tvBienvenida);
+
+        tvBienvenida.setText("¡Bienvenido" + " " + getIntent().getExtras().getString("usuario") + "!");
 
         boton1.setOnClickListener(new View.OnClickListener() {
             @Override
