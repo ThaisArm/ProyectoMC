@@ -37,8 +37,11 @@ public class RegistroActivity extends AppCompatActivity implements View.OnClickL
     private String url3;
     private String url4;
     private int day, month, year;
+<<<<<<< HEAD
     private MainActivity m = new MainActivity();
     private TextView tvPrueba;
+=======
+>>>>>>> develop
 
     ComboBoxData cbxTypesActivity = new ComboBoxData();
     ComboBoxData cbxActivities = new ComboBoxData();
@@ -62,7 +65,12 @@ public class RegistroActivity extends AppCompatActivity implements View.OnClickL
         edObs = (EditText) findViewById(R.id.etObs);
         bRegistro = (Button) findViewById(R.id.btRegistrar);
         cliente = new AsyncHttpClient();
+<<<<<<< HEAD
         tvPrueba = (TextView) findViewById(R.id.tvPrueba);
+=======
+
+        etPerReg.setText(getIntent().getExtras().getString("usuario"));
+>>>>>>> develop
 
         url1 = "http://192.168.8.143/empresati/listar_tip_act.php";
         url2 = "http://192.168.8.143/empresati/listar_act.php";

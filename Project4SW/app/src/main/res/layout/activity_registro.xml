@@ -157,6 +157,10 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
+<<<<<<< HEAD
+=======
+        android:enabled="false"
+>>>>>>> develop
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.079"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -170,6 +174,10 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
+<<<<<<< HEAD
+=======
+        android:enabled="false"
+>>>>>>> develop
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.079"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -225,6 +233,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.382" />
 
+<<<<<<< HEAD
     <TextView
         android:id="@+id/tvPrueba"
         android:layout_width="183dp"
@@ -236,4 +245,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.734" />
 
+=======
+>>>>>>> develop
 </androidx.constraintlayout.widget.ConstraintLayout>

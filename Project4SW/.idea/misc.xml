@@ -3,7 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/ProyectoGrupoF/ProyectoMC/Project4SW/app/src/main/res/layout/activity_registro.xml" value="0.12318840579710146" />
+=======
+        <entry key="..\:/ProyectoGrupoF/ProyectoMC/Project4SW/app/src/main/res/layout/activity_cambio_contrasena.xml" value="0.12318840579710146" />
+        <entry key="..\:/ProyectoGrupoF/ProyectoMC/Project4SW/app/src/main/res/layout/activity_consulta.xml" value="0.12318840579710146" />
+        <entry key="..\:/ProyectoGrupoF/ProyectoMC/Project4SW/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/ProyectoGrupoF/ProyectoMC/Project4SW/app/src/main/res/layout/activity_principal.xml" value="0.2" />
+        <entry key="..\:/ProyectoGrupoF/ProyectoMC/Project4SW/app/src/main/res/layout/activity_registro.xml" value="0.136" />
+>>>>>>> develop
       </map>
     </option>
   </component>
