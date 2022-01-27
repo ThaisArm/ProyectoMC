@@ -40,7 +40,7 @@
         app:layout_constraintVertical_bias="0.256" />
 
     <Button
-        android:id="@+id/btnIngresar"
+        android:id="@+id/btnNotificar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ingresar"
