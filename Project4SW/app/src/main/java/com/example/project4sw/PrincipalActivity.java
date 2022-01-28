@@ -40,7 +40,12 @@ public class PrincipalActivity extends AppCompatActivity {
         boton2 = findViewById(R.id.btnRegistrarActividad);
         boton3 = findViewById(R.id.btnConsulta);
         tvBienvenida = findViewById(R.id.tvBienvenida);
+<<<<<<< HEAD
         tvBienvenida.setText("¡Bienvenido/a" + " " + getIntent().getExtras().getString("usuario") + "!");
+=======
+
+        tvBienvenida.setText("¡Bienvenida/o" + " " + getIntent().getExtras().getString("usuario") + "!");
+>>>>>>> develop
 
         boton1.setOnClickListener(new View.OnClickListener() {
             @Override
