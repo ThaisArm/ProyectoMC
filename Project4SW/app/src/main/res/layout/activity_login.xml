@@ -43,7 +43,7 @@
         android:id="@+id/btnNotificar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ingresar"
+        android:text="@string/notificar"
         android:background="#1abc9c"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
