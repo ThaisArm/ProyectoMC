@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Project4SW" parent="Theme.MaterialComponents.Bridge">
+    <style name="Theme.Project4SW" parent="Theme.MaterialComponents.Light">
         <!-- Primary brand color. -->
         <item name="colorPrimary">#1abc9c</item>
         <item name="colorPrimaryVariant">#16a085</item>

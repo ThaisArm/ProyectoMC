@@ -50,7 +50,7 @@
         android:layout_height="83dp"
         android:autoSizeTextType="uniform"
         android:text="TextView"
-        android:textColor="@android:color/white"
+        android:textColor="#1abc9c"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"

@@ -40,8 +40,7 @@ public class PrincipalActivity extends AppCompatActivity {
         boton2 = findViewById(R.id.btnRegistrarActividad);
         boton3 = findViewById(R.id.btnConsulta);
         tvBienvenida = findViewById(R.id.tvBienvenida);
-
-        tvBienvenida.setText("¡Bienvenido" + " " + getIntent().getExtras().getString("usuario") + "!");
+        tvBienvenida.setText("¡Bienvenido/a" + " " + getIntent().getExtras().getString("usuario") + "!");
 
         boton1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -112,20 +111,9 @@ public class PrincipalActivity extends AppCompatActivity {
         boton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-<<<<<<< HEAD
-                startActivity(new Intent(PrincipalActivity.this, RegistroActivity.class));
-            }
-        });
-=======
-
-                //ACTU
                 Intent intent = new Intent(PrincipalActivity.this, RegistroActivity.class);
-
                 intent.putExtra("usuario", getIntent().getExtras().getString("usuario"));
                 startActivity(intent);
-                //FIN_ACTU
-
-                //startActivity(new Intent(PrincipalActivity.this, RegistroActivity.class));
             }
         });
 
@@ -139,6 +127,5 @@ public class PrincipalActivity extends AppCompatActivity {
 
     public void message(String mensaje) {
         Toast.makeText(this, mensaje, Toast.LENGTH_SHORT).show();
->>>>>>> develop
     }
 }
